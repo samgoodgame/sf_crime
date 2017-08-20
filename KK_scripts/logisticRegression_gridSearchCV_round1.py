@@ -115,7 +115,7 @@ plt.show()
 
 
 #L2
-lr_param_grid_2 = {'C': [0, 0.0001, 0.001, 0.01, 0.1, 0.5, 1.0, 5.0, 10.0], \
+lr_param_grid_2 = {'C': [0.0001, 0.01, 1.0, 10.0, 50.0, 100.0, 150.0, 250.0, 500.0], \
                  'solver':['liblinear','newton-cg','lbfgs', 'sag']}
 LR_l2 = GridSearchCV(LogisticRegression(penalty='l2'), param_grid=lr_param_grid_2, scoring='neg_log_loss')
 LR_l2.fit(train_data, train_labels)
