@@ -2,6 +2,9 @@
 
 ### Sarah Cha, Sam Goodgame, Kalvin Kao, and Bryan Moore
 
+[Bay Bridge by Sam Goodgame](bay_bridge_goodgame.jpg)
+
+
 Our goal with this project is to predict the type of a crime based on its component details. The component details are primarily related to time and location. The data is from a [Kaggle competition](https://www.kaggle.com/c/sf-crime/discussion).
 
 This is an interesting problem space because time and location are both high-dimensional variables. Such variables don't tend to work well with machine learning models, because they lead the models to overfit and generalize poorly.
