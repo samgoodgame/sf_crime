@@ -2,8 +2,7 @@
 
 ### Sarah Cha, Sam Goodgame, Kalvin Kao, and Bryan Moore
 
-[Bay Bridge by Sam Goodgame](bay_bridge_goodgame.jpg)
-
+![Bay Bridge by Sam Goodgame](bay_bridge_goodgame.jpg "Bay Bridge by Sam Goodgame")
 
 Our goal with this project is to predict the type of a crime based on its component details. The component details are primarily related to time and location. The data is from a [Kaggle competition](https://www.kaggle.com/c/sf-crime/discussion).
 
